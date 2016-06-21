@@ -15,7 +15,7 @@ PojoMapper<Car, Pickup> simpleMapper = PojoMapper.of(
                 }
         );
 
-        Pickup smart = simpleMapper.mapping(new Car("smart", new BigDecimal("300000")), Pickup.class);
+Pickup smart = simpleMapper.mapping(new Car("smart", new BigDecimal("300000")), Pickup.class);
 ```
 
 **java8版**
